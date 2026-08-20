@@ -7,11 +7,12 @@ D:\Dev\IT30A\backups
 5. INSERT INTO <table_name_in_plural>
     (columns)
     VALUES(values);
-    
 
+Utilty Commands
+\! cls
+mysqldump -u root -p --database library_db > "D:\dev\IT30A_Lucero\backup\08182026_library_db.sql"
 
-
-
+mysqldump -u root -p --database library_db > D:\dev\IT30A_Lucero\backup\%date:~-4%_%date:~4,2%_%date:~7,2%_%time:~0,2%_%time:~3,2%_%time:~6,2%_library_db.sql"
 
 
 
