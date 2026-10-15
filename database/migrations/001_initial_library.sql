@@ -169,6 +169,6 @@ INSERT INTO borrow (
     student_id,
     book_id
 ) VALUES
-    (5, 6),
+    (1, 2),
     (2, 1),
     (3, 4);
